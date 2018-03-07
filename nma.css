@@ -1,0 +1,82 @@
+body {
+	background-image: url('bluedots.jpeg');
+	background-size: cover;
+font-family: 'Raleway';
+	
+}
+
+.container {
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 5%;
+
+}
+
+.transparent {
+	padding: 5%;
+    margin-bottom: 0px;
+    opacity: 0.7;
+    background-color: #287780;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.darken {
+  background-image: 
+    linear-gradient(
+rgba(255, 215, 15, 0.5),
+      rgba(255, 215, 15, 0.5)
+    ),
+    url('bluedots.jpg');
+
+}
+
+.header h2 {	text-align: center;
+	margin-bottom: 15%;
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+		font-family: 'Libre Baskerville';
+	font-weight: bolder;
+}
+
+
+
+
+dt {
+	font-weight: bolder;
+}
+
+div h3 {
+	text-align: right;
+}
+
+div h4 {
+	text-align: right;
+}
+
+
+
+.phone {
+	float: right;
+}
+
+
+
+
+
+.footer {
+	text-align: center;
+	background-color: #287780;
+	margin-top: 0px;
+	padding-right: 25%;
+
+}
+
+.aboutspan a {
+	color: white;
+}
