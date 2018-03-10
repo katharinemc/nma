@@ -1,8 +1,13 @@
+*	{
+	box-sizing: border-box;
+	}
+
 body {
-	background-image: url('bluedots.jpeg');
+	background-image: url('backgroundv2.jpg');
 	background-size: cover;
 	font-family: 'Raleway';
-	
+	font-size: 1em;
+
 }
 
 .container {
@@ -15,7 +20,7 @@ body {
 	padding: 5%;
     margin-bottom: 0px;
     opacity: 0.7;
-    background-color: #287780;
+    background-color: #DCDEDB;
     background-size: cover;
     overflow: hidden;
 }
@@ -51,13 +56,33 @@ div h4 {
 }
 
 img {
-	width: 35%;
+	max-width: 100%;
 	padding: 0 2% 5% 0 ;
-	float: left;
+	
+}
+
+
+
+.row {
 
 }
 
+.picturecolumn {
+	width: 33%;
+	display: inline-block;
+	    
+}
+
+.bio {
+	width: 66%;
+	opacity: 0.7;
+    background-color: #DCDEDB;
+    float: right;
+    display: inline-block;
+ }
+
 .bio p {
+	height: 100%;
 	text-align: justify;
 }
 
